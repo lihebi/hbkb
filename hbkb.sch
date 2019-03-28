@@ -101,8 +101,6 @@ F 3 "~" H 4300 4550 50  0001 C CNN
 	1    4300 4550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3100 5350 3850 5350
 $Comp
 L 74xx:74HC595 U3
 U 1 1 5C9CBD0C
@@ -292,24 +290,20 @@ OE
 $Comp
 L Connector_Generic:Conn_01x05 J5
 U 1 1 5CA193C6
-P 4250 1800
-F 0 "J5" H 4168 1375 50  0000 C CNN
-F 1 "Conn_01x05" H 4168 1466 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 4250 1800 50  0001 C CNN
-F 3 "~" H 4250 1800 50  0001 C CNN
-	1    4250 1800
+P 4250 1900
+F 0 "J5" H 4168 1475 50  0000 C CNN
+F 1 "Conn_01x05" H 4168 1566 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 4250 1900 50  0001 C CNN
+F 3 "~" H 4250 1900 50  0001 C CNN
+	1    4250 1900
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	4450 2050 4450 2000
-Text Label 4700 1750 0    50   ~ 0
-SRCLR
 Text Label 4700 1650 0    50   ~ 0
+SRCLR
+Text Label 4700 1750 0    50   ~ 0
 SRCLK
-Wire Wire Line
-	4450 1600 4450 1450
-Wire Wire Line
-	4450 1450 5350 1450
 Entry Wire Line
 	3450 3650 3550 3750
 Entry Wire Line
@@ -582,37 +576,49 @@ F 3 "" H 4350 6950 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	3100 5250 3850 5250
+	3100 5350 3850 5350
+Text Label 4700 1450 0    50   ~ 0
+SER
 Wire Wire Line
-	3100 5150 3850 5150
+	4100 1450 4100 2300
 Wire Wire Line
-	3100 5050 3850 5050
+	4100 2300 4450 2300
 Wire Wire Line
-	3100 4950 3850 4950
+	4450 2300 4450 2100
 Wire Wire Line
-	3100 4850 3850 4850
+	4100 1450 5350 1450
 Wire Wire Line
-	3100 4750 3850 4750
-Wire Wire Line
-	3100 4650 4100 4650
-Wire Wire Line
-	3100 4550 4100 4550
-Wire Wire Line
-	3100 4450 4100 4450
-Wire Wire Line
-	3100 4350 3850 4350
-Wire Wire Line
-	3100 4250 3850 4250
-Wire Wire Line
-	3100 4150 3850 4150
-Wire Wire Line
-	3100 4050 3850 4050
-Wire Wire Line
-	3100 3950 3850 3950
+	3100 3750 3850 3750
 Wire Wire Line
 	3100 3850 3850 3850
 Wire Wire Line
-	3100 3750 3850 3750
+	3100 3950 3850 3950
+Wire Wire Line
+	3100 4050 3850 4050
+Wire Wire Line
+	3100 4150 3850 4150
+Wire Wire Line
+	3100 4250 3850 4250
+Wire Wire Line
+	3100 4350 3850 4350
+Wire Wire Line
+	3100 4450 4100 4450
+Wire Wire Line
+	3100 4550 4100 4550
+Wire Wire Line
+	3100 4650 4100 4650
+Wire Wire Line
+	3100 4750 3850 4750
+Wire Wire Line
+	3100 4850 3850 4850
+Wire Wire Line
+	3100 4950 3850 4950
+Wire Wire Line
+	3100 5050 3850 5050
+Wire Wire Line
+	3100 5150 3850 5150
+Wire Wire Line
+	3100 5250 3850 5250
 Wire Bus Line
 	5050 1600 5050 5800
 Wire Bus Line
