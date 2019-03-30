@@ -7,3 +7,8 @@ fp-lib-table
 fp-info-cache
 *.bak
 *-cache.lib
+gerbers
+*.zip
+*.dsn
+*.ses
+*.rules
